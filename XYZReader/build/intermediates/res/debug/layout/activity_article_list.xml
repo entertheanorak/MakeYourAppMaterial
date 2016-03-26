@@ -21,7 +21,7 @@
             android:paddingBottom="28dp" />
     </android.support.v4.widget.SwipeRefreshLayout>
 
-    <AppBarLayout
+    <FrameLayout
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
         android:layout_height="112dp"
@@ -38,12 +38,12 @@
             android:layout_gravity="bottom">
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:src="@drawable/logo"
                 android:contentDescription="@string/app_name" />
 
         </android.support.v7.widget.Toolbar>
-    </AppBarLayout>
+    </FrameLayout>
 
 </FrameLayout><!-- From: file:/C:/Users/A/Desktop/Android/xyzreader/XYZReader/src/main/res/layout/activity_article_list.xml -->

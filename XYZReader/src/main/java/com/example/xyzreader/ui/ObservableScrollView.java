@@ -17,7 +17,9 @@
 package com.example.xyzreader.ui;
 
 import android.content.Context;
+import android.os.Parcelable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.widget.ScrollView;
 
 /**
@@ -57,7 +59,7 @@ public class ObservableScrollView extends ScrollView {
         mCallbacks = listener;
     }
 
-    public interface Callbacks {
-        void onScrollChanged();
+    public static interface Callbacks {
+        public void onScrollChanged();
     }
 }
